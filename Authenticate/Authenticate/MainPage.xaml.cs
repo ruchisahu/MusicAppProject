@@ -26,9 +26,9 @@ namespace Authenticate
         public MainPage()
         {
             
-            string username = "abc";
-            string password = "xyz";
-            auth.AddUser(username, password);
+           // string username = "abc";
+         //-   string password = "xyz";
+           // auth.AddUser(username, password);
             this.InitializeComponent();
         }
 
@@ -45,6 +45,9 @@ namespace Authenticate
             LoginLayer.Visibility = Model.Authentication.Authenticate1(txtName.Text, txtPassword.Text) ? Visibility.Collapsed : Visibility.Visible;
         }
 
-
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(AddUser));
+        }
     }
 }

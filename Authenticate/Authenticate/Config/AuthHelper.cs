@@ -9,7 +9,7 @@ namespace Authenticate.Config
    public  class AuthHelper
     {
         private static Dictionary<string, string> dict = new Dictionary<string, string>();
-        public void AddUser(string username,string password)
+        public static void AddUser(string username,string password)
         {
            // dict.Add("Ruchi", "101");
            dict.Add(username, password);

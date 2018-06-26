@@ -189,15 +189,17 @@ namespace Authenticate.Authenticate_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
-            _typeNameTable[0] = "Authenticate.MainPage";
+            _typeNameTable = new string[4];
+            _typeNameTable[0] = "Authenticate.AddUser";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "Authenticate.MainPage";
 
-            _typeTable = new global::System.Type[3];
-            _typeTable[0] = typeof(global::Authenticate.MainPage);
+            _typeTable = new global::System.Type[4];
+            _typeTable[0] = typeof(global::Authenticate.AddUser);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::Authenticate.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -232,7 +234,8 @@ namespace Authenticate.Authenticate_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::Authenticate.MainPage(); }
+        private object Activate_0_AddUser() { return new global::Authenticate.AddUser(); }
+        private object Activate_3_MainPage() { return new global::Authenticate.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -244,9 +247,9 @@ namespace Authenticate.Authenticate_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Authenticate.MainPage
+            case 0:   //  Authenticate.AddUser
                 userType = new global::Authenticate.Authenticate_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_0_AddUser;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -257,6 +260,13 @@ namespace Authenticate.Authenticate_XamlTypeInfo
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::Authenticate.Authenticate_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  Authenticate.MainPage
+                userType = new global::Authenticate.Authenticate_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;

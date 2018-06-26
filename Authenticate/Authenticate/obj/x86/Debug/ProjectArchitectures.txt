@@ -1,1 +1,1 @@
-c:\users\sankalpg\source\repos\Authenticate\Authenticate\Authenticate.csproj;x86
+C:\Users\sankalpg\source\repos\Authenticate\Authenticate\Authenticate.csproj;x86

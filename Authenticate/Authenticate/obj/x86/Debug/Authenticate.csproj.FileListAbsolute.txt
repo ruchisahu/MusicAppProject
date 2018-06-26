@@ -212,3 +212,8 @@ c:\users\sankalpg\source\repos\Authenticate\Authenticate\obj\x86\Debug\qualifier
 c:\users\sankalpg\source\repos\Authenticate\Authenticate\obj\x86\Debug\qualifiers.txt.intermediate
 c:\users\sankalpg\source\repos\Authenticate\Authenticate\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\sankalpg\source\repos\Authenticate\Authenticate\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\sankalpg\source\repos\Authenticate\Authenticate\obj\x86\Debug\AddUser.g.i.cs
+C:\Users\sankalpg\source\repos\Authenticate\Authenticate\obj\x86\Debug\AddUser.g.cs
+C:\Users\sankalpg\source\repos\Authenticate\Authenticate\obj\x86\Debug\AddUser.xaml
+C:\Users\sankalpg\source\repos\Authenticate\Authenticate\obj\x86\Debug\AddUser.xbf
+C:\Users\sankalpg\source\repos\Authenticate\Authenticate\bin\x86\Debug\AddUser.xbf
