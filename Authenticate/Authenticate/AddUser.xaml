@@ -14,11 +14,17 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="26*"/>
         </Grid.RowDefinitions>
+        <CommandBar Background="SteelBlue" RequestedTheme="Dark">
+            <CommandBar.Content>
+                <TextBlock  Text="Music App User Registration Page" FontSize="24"/>
+            </CommandBar.Content>
+            <AppBarToggleButton x:Name="togggle" Icon="ClosePane"/>
+        </CommandBar>
 
         <Border x:Name="Stage" Grid.Row="1" />
         <Grid x:Name="LoginLayer" Grid.RowSpan="2">
 
-            <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Background="WhiteSmoke" Width="325" Height="401" Margin="0,0,0,0">
+            <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Background="WhiteSmoke" Width="325" Height="349" Margin="0,52,0,0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                     <ColumnDefinition/>

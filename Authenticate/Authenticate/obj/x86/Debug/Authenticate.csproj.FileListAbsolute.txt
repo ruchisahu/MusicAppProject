@@ -122,7 +122,6 @@ c:\users\sankalpg\source\repos\Authenticate\Authenticate\bin\x86\Debug\System.Xm
 c:\users\sankalpg\source\repos\Authenticate\Authenticate\bin\x86\Debug\System.Xml.XDocument.dll
 c:\users\sankalpg\source\repos\Authenticate\Authenticate\bin\x86\Debug\System.Xml.XmlDocument.dll
 c:\users\sankalpg\source\repos\Authenticate\Authenticate\bin\x86\Debug\System.Xml.XmlSerializer.dll
-c:\users\sankalpg\source\repos\Authenticate\Authenticate\obj\x86\Debug\Authenticate.csprojAssemblyReference.cache
 c:\users\sankalpg\source\repos\Authenticate\Authenticate\obj\x86\Debug\App.g.i.cs
 c:\users\sankalpg\source\repos\Authenticate\Authenticate\obj\x86\Debug\App.g.cs
 c:\users\sankalpg\source\repos\Authenticate\Authenticate\obj\x86\Debug\MainPage.g.i.cs
